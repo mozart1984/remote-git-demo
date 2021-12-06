@@ -1,0 +1,30 @@
+Git 指令：
+
+git --version
+git config --global user.name <username>
+git config --global user.email <email>
+
+git config --list
+
+git init
+
+git add <file>
+git restore <file>
+
+git ls-files -s
+
+[Check file type of Git file]
+git cat-file -t <.git/object/folder/file>
+
+[Check file content of Git file]
+git cat-file -p <.git/object/folder/file>
+
+
+[將所有檔案確認變動並移入控管（A）]
+git add .
+
+[將於暫存區控管中（A）的檔案移回工作區（U）]
+git restore -staged
+
+[將檔案確認提交至倉儲區，並附加註解訊息]
+git commit -m "<message to be added>"
