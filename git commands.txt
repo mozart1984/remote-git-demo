@@ -28,3 +28,18 @@ git restore -staged
 
 [將檔案確認提交至倉儲區，並附加註解訊息]
 git commit -m "<message to be added>"
+
+[創建分支]
+git branch <branch name>
+
+[切換分支]
+git checkout <branch name>
+
+[查看分支]
+git branch
+
+[合併分支（在主分支時）]
+git merge <branch name>
+
+[刪除分支]
+git branch -D <branch name>
